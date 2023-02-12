@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Todo</title>
+
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="wrapper">
+      <div class="title-theme">
+        <h1 class="title">TODO</h1>
+        <img class="theme" src="./assets/icon-sun.svg" alt="" />
+      </div>
+      <!--  -->
+      <div class="create-todo">
+        <div class="checkbox">
+          <!-- <img class="done" src="./images/icon-check.svg"> -->
+        </div>
+        <form>
+          <input type="text" id="input" placeholder="Create a new todo..." />
+          <input type="submit" id="submit" value="Add" />
+        </form>
+      </div>
+
+      <!--  -->
+      <div class="list-todo">
+        <!-- <div class="empty">
+          <div class="checkbox">
+            <img class="done" src="./images/icon-check.svg" />
+          </div>
+          <span>You don't have any todo yet</span>
+        </div> -->
+      </div>
+
+      <!--  -->
+      <div class="bottom">
+        <div class="item-count"><span id="count">0</span> item left</div>
+        <div class="filter">
+          <div id="active" class="option all-todo">All</div>
+          <div class="option active-todo">Active</div>
+          <div class="option completed-todo">Completed</div>
+        </div>
+        <div class="clear-completed">Clear Completed</div>
+      </div>
+    </div>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
