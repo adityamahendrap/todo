@@ -1,3 +1,5 @@
+//bro where's the array 💀
+
 function inputValidation() {
   let space = 0;
   if (input.value == "") return false;
